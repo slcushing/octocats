@@ -1,0 +1,55 @@
+// @mixin theme($theme) {
+//     position: inline-block;
+//     width: 500px;
+//     border-color: lightgray;
+// }
+div {
+    display:inline;
+}
+
+.octocat {
+    width: 300px;
+    height: 300px;
+    border: 1.5px solid lightgray;
+    border-radius: 2px;
+    margin: auto;
+    display: inline-block;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    display:inline-block;
+}
+
+.authors {
+    display:inline-block;
+    width: auto;
+    height: 5%;
+    margin: 5%;
+    border-bottom: 1.5px solid lightgray;
+    list-style-type: none;
+}
+
+.authors li {
+    display: inline-block;
+}
+
+.image-number {
+    color:lightgray;
+    font-weight: bold;
+}
+
+.image-caption {
+    float: right;
+    color:lightgray;
+    font-weight: bold;
+}
+
+.image-caption span {
+    color: rgb(109, 107, 107);
+}
+
