@@ -1,15 +1,14 @@
-// @mixin theme($theme) {
-//     position: inline-block;
-//     width: 500px;
-//     border-color: lightgray;
-// }
 div {
     display:inline;
 }
 
+.octodex {
+    width: 100%;
+}
+
 .octocat {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     border: 1.5px solid lightgray;
     border-radius: 2px;
     margin: auto;
@@ -27,29 +26,40 @@ a {
 
 .authors {
     display:inline-block;
-    width: auto;
-    height: 5%;
-    margin: 5%;
-    border-bottom: 1.5px solid lightgray;
+    vertical-align: middle;
     list-style-type: none;
 }
 
-.authors li {
-    display: inline-block;
+.authors img{
+    width: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .image-number {
     color:lightgray;
     font-weight: bold;
+    display: block;
+}
+
+.image-number::before {
+    content: '#';
+}
+
+li {
+    display: inline-block;
 }
 
 .image-caption {
-    float: right;
+    display: inline-block;
     color:lightgray;
     font-weight: bold;
+    border-bottom: 1.5px solid lightgray;
+    border-width: 100%;
 }
 
 .image-caption span {
     color: rgb(109, 107, 107);
 }
+
 
